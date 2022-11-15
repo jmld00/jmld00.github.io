@@ -1,0 +1,39 @@
+#descripcion {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+#descripcion .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#blog h3, h4 {
+    text-align: left;
+    text-decoration: none;
+    color: #000;
+}
+
+#blog h3 {
+    font-size: 25px;
+}
+
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#blog article {
+       margin: 15px; 
+    max-width:400px;
+}
+
+
+#blog img {
+    width: 100%;
+    max-width: 400px;
+}
+#blog img:hover{
+    cursor:auto;
+}
